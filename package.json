@@ -1,0 +1,37 @@
+{
+  "name": "city-search-api",
+  "version": "1.0.0",
+  "description": "A simple city search API written in Node",
+  "main": "src/server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc-watch --onSuccess \"node ./dist/server.js\"",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/progvar/city-search-api.git"
+  },
+  "keywords": [
+    "node",
+    "ts",
+    "typescript",
+    "search",
+    "rest",
+    "api"
+  ],
+  "author": "Gyula Varadi",
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/progvar/city-search-api/issues"
+  },
+  "homepage": "https://github.com/progvar/city-search-api#readme",
+  "devDependencies": {
+    "@types/node": "12.0.2",
+    "prettier": "1.17.1",
+    "tsc-watch": "2.2.1",
+    "tslint": "5.16.0",
+    "tslint-plugin-prettier": "2.0.1",
+    "typescript": "3.4.5"
+  }
+}
